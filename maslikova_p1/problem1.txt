@@ -1,0 +1,23 @@
+Programming Assignment 4 will consist of writing multiple short programs using material from modules 5, 7, and 8. For this assignment, are allowed to use the editor of your choice (e.g. Eclipse, IntelliJ, VS Code, Atom).
+
+Each problem below should be self contained within its own folder. You will upload these folders to your GitHub site. Each folder must contain the java source code in its proper package structure. All problems should be in the same repository. To keep things simple, I suggest that you create a new repository on GitHub called <last_name>_PA4 and push your projects there.
+
+You will submit your assignment as both a link to your GitHub page and an upload of your projects as a *.zip file. Your projects should be named <last_name>_pN, where N is the problem number the corresponds to each project. You must name your zip file <last_name>_PA4.zip. Failure to adhere to these naming convention may result in your assignment going ungraded. Due to Webcourse@UCF limitations, when you submit your assignment, submit the zip file. Add your GitHub URL as a note during the submission, or as a comment after the submission. If you do not know how to create a zip file, refer to Google (for windows, just look on microsoft's website (Links to an external site.)).
+
+If you forget to submit one or both of the required items on time, additional submissions after the deadline will be considered late for the purposes of calculating your grade. NO EXCEPTIONS WILL BE MADE.
+
+An example structure of your GitHub repository might be:
+
+Grades for this program will be determined according to the rubic. If your project on GitHub does not contain the proper package structure, it will not be graded. This requirement is in place so that my graders can either pull your code directly from git or unzip it and run it without modification. 
+
+Create a class called DuplicateRemover. Create an instance method called remove that takes a single parameter called dataFile (representing the path to a text file) and uses a Set of Strings to eliminate duplicate words from dataFile. The unique words should be stored in an instance variable called uniqueWords. Create an instance method called write that takes a single parameter called outputFile (representing the path to a text file) and writes the words contained in uniqueWords to the file pointed to by outputFile. The output file should be overwritten if it already exists, and created if it does not exist.
+ 
+Create a separate class called Application that contains a main method which illustrates the use of DuplicateRemover by calling both the remove and write methods. Your input file must be called problem1.txt and your output file must be called unique_words.txt. You will not receive credit if you use different file names, as my graders will not modify your code to make it work with their test files.
+ 
+Your program should work on any text file. The TA's will provide their own version of problem1.txt when they run your code.
+
+Create a class called DuplicateCounter. Create an instance method called count that takes a single parameter called dataFile (representing the path to a text file) and uses a Map of Strings to count how many times each word occurs in dataFile. The counts should be stored in an instance variable called wordCounter. Create an instance method called write that takes a single parameter called outputFile (representing the path to a text file) and writes the contents of wordCounter to the file pointed to by outputFile. The output file should be overwritten if it already exists, and created if it does not exist.
+
+Create a separate class called Application that contains a main method which illustrates the use of DuplicateCounter by calling both the remove and write methods. Your input file must be called problem2.txt and your output file must be called unique_word_counts.txt. You will not receive credit if you use different file names, as my graders will not modify your code to make it work with their test files.
+ 
+Your program should work on any text file. The TA's will provide their own version of problem1.txt when they run your code.
